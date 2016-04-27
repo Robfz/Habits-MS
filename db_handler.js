@@ -2,7 +2,7 @@ var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 var nodemailer = require('nodemailer');
 
-var transporter = nodemailer.createTransport('smtps://robfz729%40gmail.com:Kenanykel13@smtp.gmail.com');
+var transporter = nodemailer.createTransport('smtps://robfz729%40gmail.com:pass@smtp.gmail.com');
 
 var url = 'mongodb://localhost:27017/arqui';
 var collection_name = 'email_sender_test';
